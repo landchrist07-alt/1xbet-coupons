@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BleuCoupons</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<div class="announcement-bar">
+    <div class="announcement-text">
+       Vous recevrez votre code coupon sur WhatsApp sous 5 minutes après paiement.
+
+    </div>
+</div>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+        <div class="header-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-box">1X</span>
+                <span class="logo-text">1xbet Coupons</span>
+            </a>
+
+            <nav class="navigation">
+                <a href="index.html" class="active">Accueil</a>
+                <a href="Petite côte.html">Petite côte</a>
+                <a href="Moyenne côte.html">Moyenne côte</a>
+                <a href="Grosse côte.html">Grosse côte</a>
+                <a href="Comment ça marche.html">Comment ça marche</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-label">
+                PRONOSTICS VÉRIFIÉS CHAQUE JOUR
+            </div>
+
+            <h1>
+                Choisissez votre côte, recevez<br>
+                votre coupon en quelques<br>
+                minutes
+            </h1>
+
+            <p>
+                Petite côte pour la sécurité, moyenne côte pour l'équilibre,
+                grosse côte pour le grand coup. À<br>
+                vous de décider.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#types-cotes" class="hero-button primary">
+                    Voir les coupons du jour
+                </a>
+
+                <a href="Comment ça marche.html" class="hero-button secondary">
+                    Comment ça marche
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TYPES DE COTES ================= -->
+
+    <section class="types-section" id="types-cotes">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <h2>Nos trois types de côtes</h2>
+
+                <p>
+                    Chaque coupon est préparé par nos analystes et livré avant le début des matchs.
+                </p>
+
+            </div>
+
+
+            <div class="types-grid">
+
+                <!-- PETITE COTE -->
+
+                <div class="type-card">
+
+                    <span class="type-badge">
+                        Sécurité avant tout
+                    </span>
+
+                    <h3>Petite côte</h3>
+
+                    <div class="cote">
+                        Côte 3.00 - 10.00
+                    </div>
+
+                    <p>
+                        Des sélections prudentes, analysées pour viser la
+                        régularité plutôt que le gros gain. Idéal pour faire
+                        grossir la caisse petit à petit.
+                    </p>
+
+                    <div class="card-price">
+                        20 500 FCFA
+                    </div>
+
+                    <a href="Petite côte.html" class="card-button">
+                        Découvrir le coupon
+                    </a>
+
+                    <button class="outline-button" onclick="acheter('Petite côte')">
+                        Acheter maintenant
+                    </button>
+
+                </div>
+
+
+                <!-- MOYENNE COTE -->
+
+                <div class="type-card">
+
+                    <span class="type-badge">
+                        L'équilibre parfait
+                    </span>
+
+                    <h3>Moyenne côte</h3>
+
+                    <div class="cote">
+                        Côte 10.01 - 99.00
+                    </div>
+
+                    <p>
+                        Le bon compromis entre risque et rendement.
+                        Des combinaisons travaillées pour multiplier votre
+                        mise sans prendre de pari fou.
+                    </p>
+
+                    <div class="card-price">
+                        20 500 FCFA
+                    </div>
+
+                    <a href="Moyenne côte.html" class="card-button">
+                        Découvrir le coupon
+                    </a>
+
+                    <button class="outline-button" onclick="acheter('Moyenne côte')">
+                        Acheter maintenant
+                    </button>
+
+                </div>
+
+
+                <!-- GROSSE COTE -->
+
+                <div class="type-card">
+
+                    <span class="type-badge">
+                        Le grand coup
+                    </span>
+
+                    <h3>Grosse côte</h3>
+
+                    <div class="cote">
+                        Côte 99.01 et plus
+                    </div>
+
+                    <p>
+                        Pour ceux qui veulent transformer une petite mise
+                        en gros gain. Sélections audacieuses, réservées
+                        aux joueurs qui acceptent le risque.
+                    </p>
+
+                    <div class="card-price">
+                        10 500 FCFA
+                    </div>
+
+                    <a href="Grosse côte.html" class="card-button">
+                        Découvrir le coupon
+                    </a>
+
+                    <button class="outline-button" onclick="acheter('Grosse côte')">
+                        Acheter maintenant
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= AVANTAGES ================= -->
+
+    <section class="advantages-section">
+
+        <div class="advantages-container">
+
+            <div class="advantage-card">
+
+                <h3>Analyses sérieuses</h3>
+
+                <p>
+                    Statistiques, forme, compositions : rien n'est
+                    laissé au hasard.
+                </p>
+
+            </div>
+
+
+            <div class="advantage-card">
+
+                <h3>Livraison rapide</h3>
+
+                <p>
+                    Votre coupon arrive par WhatsApp dès la
+                    confirmation du paiement.
+                </p>
+
+            </div>
+
+
+            <div class="advantage-card">
+
+                <h3>Assistance disponible</h3>
+
+                <p>
+                    Une question ? Notre équipe répond 7j/7 de 8h à 22h.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta-section">
+
+        <div class="cta-container">
+
+            <h2>
+                Prêt à tenter votre chance ?
+            </h2>
+
+            <p>
+                Choisissez la côte qui correspond à votre style de jeu
+                et recevez votre coupon aujourd'hui.
+            </p>
+
+            <div class="cta-buttons">
+
+                <a href="Grosse côte.html" class="cta-button primary">
+                    Voir la grosse côte
+                </a>
+
+                <a href="#" class="cta-button secondary">
+                    Questions fréquentes
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-column">
+
+                <h3>1xbet Coupons</h3>
+
+                <p>
+                    Des coupons analysés chaque jour pour les parieurs sérieux.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Nos coupons</h3>
+
+                <a href="Petite côte.html">Petite côte</a>
+                <a href="Moyenne côte.html">Moyenne côte</a>
+                <a href="Grosse côte.html">Grosse côte</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Aide</h3>
+
+                <a href="Comment ça marche.html">
+                    Comment ça marche
+                </a>
+
+                <a href="#">
+                    Questions fréquentes
+                </a>
+
+                <a href="Contact.html">
+                    Nous contacter
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            Jouer comporte des risques. Réservé aux personnes majeures. © 2026 BleuCoupons.
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
